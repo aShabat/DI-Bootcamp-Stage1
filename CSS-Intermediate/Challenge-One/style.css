@@ -1,0 +1,42 @@
+#wrap {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background: #364371;
+  padding: 0% 5% 15% 5%;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#nav {
+  background: #b0cfff;
+  grid-column: 1;
+  display: table;
+}
+
+#nav h2 {
+  text-align: center;
+}
+
+#nav ul {
+  text-align: left;
+  list-style-position: inside;
+  display: inline-block;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+#content {
+  position: relative;
+  background: #5b7fbd;
+  grid-column: 2;
+}
+
+#content ul {
+  list-style: none;
+}
+
+.copyright {
+  background: #364371;
+  position: absolute;
+  top: 100%;
+}
