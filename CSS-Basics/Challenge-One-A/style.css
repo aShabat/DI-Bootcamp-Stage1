@@ -1,0 +1,47 @@
+body {
+  background: #e2ac7f;
+  padding: 5px auto;
+}
+
+#wrap {
+  background: #f5f5dc;
+  border: dashed;
+  font-family: sans-serif;
+}
+
+h1 {
+  border-bottom: dashed;
+  margin: 0px;
+  font-style: oblique;
+  font-weight: 1000;
+  text-align: center;
+}
+p {
+  padding: 10px;
+  font-weight: 200;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-align: center;
+  font-weight: 200;
+  font-style: oblique;
+}
+
+li::first-letter {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.copyright {
+  font-size: 0.8em;
+  text-align: center;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
