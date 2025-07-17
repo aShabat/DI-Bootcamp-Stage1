@@ -1,0 +1,36 @@
+#wrap {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  grid-tmeplate-columns: repeat(3, 1fr);
+  height: 100%;
+}
+
+#wrap div {
+  border: solid black;
+  margin: 5px;
+}
+
+#purple {
+  grid-row: 1;
+  grid-column: 1/4;
+  background: purple;
+}
+
+#red #green #yellow {
+  grid-row: 2;
+}
+
+#red {
+  grid-column: 1;
+  background: red;
+}
+
+#green {
+  grid-column: 2;
+  background: green;
+}
+
+#yellow {
+  grid-column: 3;
+  background: yellow;
+}
