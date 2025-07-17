@@ -1,0 +1,28 @@
+#wrap {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-auto-flow: column;
+  height: 100%;
+}
+
+#wrap div {
+  margin: 5px;
+  border: solid black;
+}
+
+.red {
+  background: red;
+  grid-column: 1;
+}
+
+.blue {
+  background: blue;
+  grid-column: 2;
+}
+
+.yellow {
+  background: yellow;
+  grid-raw: 4;
+  grid-column: 1/3;
+}
